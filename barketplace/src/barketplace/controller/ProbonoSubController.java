@@ -26,7 +26,7 @@ public class ProbonoSubController {
 	public String check(HttpServletRequest req){
 		System.out.println("loginCheck.do 요청 처리 메소드 실행");
 		req.setAttribute("msg", "Controller에서 저장한 데이터");
-		return "forward:/success.jsp";//forward방식으로 page이동 !123123
+		return "forward:/success.jsp";//forward방식으로 page이동 !123123123
 	}
 	
     //모두 ProbonoProject 검색 메소드
